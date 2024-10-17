@@ -1,7 +1,7 @@
 {
   "iceprog": {
     "command": "iceprog",
-    "args": "-d i:0x${VID}:0x${PID}:${FTDI_ID}"
+    "args": "-d i:0x0403:0x6014:0"
   },
  "pi-sicle_loader": {
     "command": "pi-sicle-loader",
